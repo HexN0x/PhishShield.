@@ -1,0 +1,20 @@
+{
+  "name": "PhishShield",
+  "version": "0.0.7",
+  "description": "Machine Learning for Phishing Detection",
+  "permissions": ["activeTab","declarativeContent", "storage", "webNavigation"],
+  "background": {
+    "service_worker": "js/bg-loader.js"
+  },
+  "action": {
+    "default_popup": "plugin_ui.html",
+    "default_icon": "icon.png"
+  }, 
+  "content_scripts":[
+    {
+      "matches": ["http://*/*","https://*/*"],
+      "js": ["js/features.js"]
+    }
+  ],
+  "manifest_version": 3
+}
