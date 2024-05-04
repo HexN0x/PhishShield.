@@ -1,0 +1,21 @@
+step - 1 
+    >> cd ./backend/dataset && python preprocess.py
+
+step - 2 
+    >> cd ./backend/classifier && python training.py
+
+Background.js line --> 5-20 
+// function fetchLive(callback) {
+//   fetch('https://raw.githubusercontent.com/picopalette/phishing-detection-plugin/master/static/classifier.json', { 
+//   method: 'GET'
+//   })
+//   .then(function(response) { 
+//     if (!response.ok) { throw response }
+//     return response.json(); 
+//   })
+//   .then(function(data) {
+//     chrome.storage.local.set({cache: data, cacheTime: Date.now()}, function() {
+//       callback(data);
+//     });
+//   });
+// }
