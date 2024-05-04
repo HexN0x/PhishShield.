@@ -1,8 +1,0 @@
-step - 1 
-    >> cd ./backend/dataset
-    >> python preprocess.py
-
-step - 2 
-    >> cd ./backend/classifier 
-    >> python training.py
-
