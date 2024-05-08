@@ -6,12 +6,14 @@ Phishing involves fraudulently obtaining sensitive information through deceptive
 1) Download Extentions and Unzip it
 2) After installing run those command
 
-    step - 1 
+    step - 1
+   
         >> cd ./Phishshield/Master/backend/dataset
    
         >> python preprocess.py
 
-     step - 2 
+     step - 2
+   
         >> cd ./Phishshield/Master/backend/classifier
    
         >> python training.py
