@@ -10,11 +10,15 @@ Phishing involves fraudulently obtaining sensitive information through deceptive
    
         >> cd ./Phishshield/Master/backend/dataset
    
-        >> python preprocess.py
+       Run Preprocessing file
+   
+            >> python preprocess.py
 
      step - 2
    
         >> cd ./Phishshield/Master/backend/classifier
+   
+       Run training file
    
         >> python training.py
    
@@ -22,7 +26,6 @@ Phishing involves fraudulently obtaining sensitive information through deceptive
 5) Select "Load Unpacked" and load "Frontend" folder.
 6) Your are ready to go
 
-   Project Repository is uploaded on github -- https://github.com/kartik-192002/PhishShieldbh/
 
 
 
