@@ -8,19 +8,19 @@ Phishing involves fraudulently obtaining sensitive information through deceptive
 
     step - 1
    
-        >> cd ./Phishshield/Master/backend/dataset
+          cd ./Phishshield/Master/backend/dataset
    
       . Run Preprocessing file
    
-            >> python preprocess.py
+              python preprocess.py
 
      step - 2
    
-        >> cd ./Phishshield/Master/backend/classifier
+           cd ./Phishshield/Master/backend/classifier
    
       . Run training file
    
-        >> python training.py
+           python training.py
    
 4) Go to extention menu and turn on "Developer Mode"
 5) Select "Load Unpacked" and load "Frontend" folder.
