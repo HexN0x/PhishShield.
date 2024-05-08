@@ -7,10 +7,13 @@ Phishing involves fraudulently obtaining sensitive information through deceptive
 2) After installing run those command
 
     step - 1 
-        >> cd ./backend/dataset && python preprocess.py
+        >> cd ./Phishshield/Master/backend/dataset 
+        >> python preprocess.py
 
      step - 2 
-        >> cd ./backend/classifier && python training.py
+        >> cd ./Phishshield/Master/backend/classifier
+        >> python training.py
+   
 4) Go to extention menu and turn on "Developer Mode"
 5) Select "Load Unpacked" and load "Frontend" folder.
 6) Your are ready to go
