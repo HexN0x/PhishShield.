@@ -10,7 +10,7 @@ Phishing involves fraudulently obtaining sensitive information through deceptive
    
         >> cd ./Phishshield/Master/backend/dataset
    
-       Run Preprocessing file
+      . Run Preprocessing file
    
             >> python preprocess.py
 
@@ -18,7 +18,7 @@ Phishing involves fraudulently obtaining sensitive information through deceptive
    
         >> cd ./Phishshield/Master/backend/classifier
    
-       Run training file
+      . Run training file
    
         >> python training.py
    
